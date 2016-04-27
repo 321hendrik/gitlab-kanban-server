@@ -5,6 +5,7 @@ Gitlab based Kanban Board Backend
 * Enter api token to auth (save with local storage)
 * Use [node gitlab api](https://github.com/node-gitlab/node-gitlab)
 * Set issue & milestone state with gitlab emoticons
+* [Angular Material Frontend](https://github.com/hendrikelsner/gitlab-kanban-gui)
 
 ## Run
 * `npm install`
