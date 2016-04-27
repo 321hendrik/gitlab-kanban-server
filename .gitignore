@@ -1,0 +1,11 @@
+data/*/*
+!.gitkeep
+*.log
+cache/*.*
+!cache/README.md
+node_modules
+docs/
+!docs/README.md
+pids
+*.sqlite
+coverage

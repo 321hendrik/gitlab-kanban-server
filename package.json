@@ -1,0 +1,30 @@
+{
+  "author": "Hendrik Elsner <Hendrik.Elsner@HPM-Kommunikation.de>",
+  "name": "kanban",
+  "description": "Gitlab based Kanban Board Backend",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.xmini.org:hpm/kanban-backend.git"
+  },
+  "dependencies": {
+    "actionhero": "^12.1.2",
+    "gitlab": "^1.4.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "expect": "^1.12.2",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "scripts": {
+    "help": "actionhero help",
+    "start": "NODE_PATH=lib actionhero start",
+    "cluster": "NODE_PATH=lib actionhero startCluster --daemon",
+    "test": "NODE_PATH=lib node_modules/mocha/bin/mocha",
+    "docs": "jsduck ./lib --output docs --title=kanban --pretty-json"
+  }
+}
